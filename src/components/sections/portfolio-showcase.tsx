@@ -15,23 +15,33 @@ interface ProjectCard {
 }
 
 const projects: ProjectCard[] = [
-  {
-    id: "satellite-imagery",
-    title: "Satellite Imagery Analysis",
-    description: "Environmental monitoring and change detection using satellite data to track global environmental changes and patterns.",
-    category: "Remote Sensing",
+   {
+    id: "web-gis",
+    title: "Web GIS",
+    description: "Interactive web mapping and spatial data visualization for modern GIS applications.",
+    category: "GIS Development",
     icon: <Satellite className="w-6 h-6" />,
-    imageUrl: "/workfull images for web/G 11,1.png",
-    link: "/solutions/satellite-analysis"
+    imageUrl: "/workfull images for web/Capture.JPG",
+    link: "/services/custom-development"
   },
   {
-    id: "urban-planning",
-    title: "Urban Planning Solutions",
-    description: "Smart city mapping and infrastructure development planning to optimize urban growth and sustainability.",
-    category: "Urban Development",
+    id: "digitizing",
+    title: "Digitizing",
+    description: "Digital conversion of maps and spatial features for efficient geodata management.",
+    category: "GIS Digitizing",
     icon: <Building className="w-6 h-6" />,
-    imageUrl: "/workfull images for web/Mapping Brand Distribution and Population Density.jpg",
+    imageUrl: "/workfull images for web/G 11,1.PNG",
     link: "/solutions/geospatial-mapping"
+  },
+  
+  {
+    id: "general-mapping",
+    title: "General Mapping",
+    description: "Our recent projects in general mapping include Italy Annual Rainfall Mapping, UK Housing Price Index Heatmap, and California Glamping Zone Identification.",
+    category: "General Mapping",
+    icon: <Satellite className="w-6 h-6" />, 
+    imageUrl: "/workfull images for web/Average annually rainfall map Italy.jpg",
+    link: "/portfolio/mapping-solutions"
   },
   {
     id: "agricultural-monitoring",
@@ -42,14 +52,15 @@ const projects: ProjectCard[] = [
     imageUrl: "/workfull images for web/portfolio-1.jpg",
   link: "/solutions/satellite-analysis"
   },
+ 
   {
-    id: "web-gis",
-    title: "Web GIS",
-    description: "Interactive web mapping and spatial data visualization for modern GIS applications.",
-    category: "GIS Development",
-    icon: <Satellite className="w-6 h-6" />,
-    imageUrl: "/workfull images for web/Capture.JPG",
-    link: "/services/custom-development"
+    id: "urban-planning",
+    title: "Urban Planning Solutions",
+    description: "Smart city mapping and infrastructure development planning to optimize urban growth and sustainability.",
+    category: "Urban Development",
+    icon: <Building className="w-6 h-6" />,
+    imageUrl: "/workfull images for web/Mapping Brand Distribution and Population Density.jpg",
+    link: "/solutions/geospatial-mapping"
   },
   {
     id: "satellite-imagery-2",
@@ -60,15 +71,6 @@ const projects: ProjectCard[] = [
     imageUrl: "/workfull images for web/Untitled.png",
     link: "/solutions/satellite-imagery"
   },
-  {
-    id: "digitizing",
-    title: "Digitizing",
-    description: "Digital conversion of maps and spatial features for efficient geodata management.",
-    category: "GIS Digitizing",
-    icon: <Building className="w-6 h-6" />,
-    imageUrl: "/workfull images for web/G 11,1.PNG",
-    link: "/solutions/geospatial-mapping"
-  }
 ];
 
 export const PortfolioShowcase = () => {
