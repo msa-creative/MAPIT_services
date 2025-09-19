@@ -21,7 +21,7 @@ const projects: ProjectCard[] = [
     description: "Environmental monitoring and change detection using satellite data to track global environmental changes and patterns.",
     category: "Remote Sensing",
     icon: <Satellite className="w-6 h-6" />,
-    imageUrl: "/workfull images for web/LULC Map.jpg",
+    imageUrl: "/workfull images for web/G 11,1.png",
     link: "/solutions/satellite-analysis"
   },
   {
