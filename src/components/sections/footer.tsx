@@ -11,7 +11,7 @@ gsap.registerPlugin(ScrollTrigger);
 const GeoAnalyticsLogo = () => (
   <div className="relative">
     <h1 className="text-8xl font-bold text-white animate-seagreen-glow">
-      <img src="/mapit logo 1.png" alt="MAPIT Logo" className="h-25 w-auto" />
+      <img src="/mapit.webp" alt="MAPIT Logo" className="h-25 w-auto" />
     </h1>
   </div>
 );
