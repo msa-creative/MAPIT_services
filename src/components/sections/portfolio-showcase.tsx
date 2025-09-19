@@ -66,7 +66,7 @@ const projects: ProjectCard[] = [
     description: "Digital conversion of maps and spatial features for efficient geodata management.",
     category: "GIS Digitizing",
     icon: <Building className="w-6 h-6" />,
-    imageUrl: "/workfull images for web/G 11,1.png",
+    imageUrl: "/workfull images for web/G 11,1.PNG",
     link: "/solutions/geospatial-mapping"
   }
 ];
