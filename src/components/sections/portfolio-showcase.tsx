@@ -69,7 +69,7 @@ const projects: ProjectCard[] = [
     category: "Remote Sensing",
     icon: <Satellite className="w-6 h-6" />,
     imageUrl: "/workfull images for web/Untitled.png",
-    link: "/solutions/satellite-imagery"
+    link: "/portfolio/satellite-projects"
   },
 ];
 
