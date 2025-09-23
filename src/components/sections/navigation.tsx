@@ -23,12 +23,12 @@ import {
   CollapsibleTrigger,
 } from "@/components/ui/collapsible";
 
-import { Menu, Satellite, Map, Globe, BarChart3, Database, Shield, GitMerge, BookOpen, UserPlus, HelpCircle, Newspaper, Palette, Camera, Layers, Target, Settings, Zap, Users, ChevronDown, ChevronRight } from "lucide-react";
+import { Menu, Satellite, Map, Globe, BarChart3, Database, Shield, GitMerge, BookOpen, UserPlus, HelpCircle, Newspaper, Palette, Camera, Layers, Target, Settings, Zap, Users, ChevronDown, ChevronRight, PhoneCallIcon } from "lucide-react";
 
 const GeoAnalyticsLogo = () => (
   <div className="relative">
     <img
-      src="/mapit.webp"
+      src="/mapit logo 1.png"
       alt="MAPIT Logo"
       className="h-22 w-auto max-w-[140px]"
     />
@@ -43,17 +43,15 @@ const solutions = [
 ];
 
 const portfolio = [
-  { icon: <Camera className="h-5 w-5 text-primary" />, title: "Satellite Imagery Projects", description: "Showcase of our advanced satellite data processing capabilities", href: "/portfolio/satellite-projects" },
+  { icon: <Camera className="h-5 w-5 text-primary" />, title: "Spatial Analysis", description: "Showcase of our advanced satellite data processing capabilities", href: "/portfolio/satellite-projects" },
   { icon: <Layers className="h-5 w-5 text-primary" />, title: "Mapping Solutions", description: "Professional mapping and cartographic projects we've delivered", href: "/portfolio/mapping-solutions" },
   { icon: <BookOpen className="h-5 w-5 text-primary" />, title: "All Projects", description: "Browse all our GIS, cadastral, and digitizing projects", href: "/portfolio/all-projects" },
 ];
 
 const services = [
-  /*{/* icon: <Settings className="h-5 w-5 text-primary" />, title: "GIS Consulting", description: "Expert consulting services for spatial data strategy and implementation", href: "/services/gis-consulting" },
-       */
-  { icon: <Satellite className="h-5 w-5 text-primary" />, title: "Satellite Imagery Analysis", description: "Advanced satellite imagery processing and analysis for earth observation", href: "/solutions/satellite-analysis" },    
-  { icon: <Zap className="h-5 w-5 text-primary" />, title: "Web-Gis Development", description: "Tailored GIS applications and spatial analysis tools with web GIS solutions", href: "/services/custom-development" },
- 
+  { icon: <Database className="h-5 w-5 text-primary" />, title: "Spatial Data Analysis", description: "Comprehensive spatial data processing, analysis, and interpretation for informed decision-making", href: "/solutions/satellite-analysis" },    
+  { icon: <Zap className="h-5 w-5 text-primary" />, title: "Web-GIS Development", description: "Tailored GIS applications and spatial analysis tools with web GIS solutions", href: "/services/custom-development" },
+  { icon: <PhoneCallIcon className="h-5 w-5 text-primary" />, title: "GIS Consultation", description: "From custom geospatial apps to advanced analytics and full GIS consulting — we’ve got you covered. Contact us to bring your ideas to life.", href: "/contact?service=gis-consulting" },
 ];
 
 const ListItem = ({ href, title, icon, children }: { href: string; title: string; icon: React.ReactNode; children: React.ReactNode }) => (
