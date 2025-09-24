@@ -262,11 +262,28 @@ export default function GeospatialMappingPage() {
               <p className="text-xl text-primary/1000 max-w-3xl mx-auto mb-8 leading-relaxed font-medium">
                 Creating accurate digital maps and comprehensive spatial databases with cutting-edge surveying technology and advanced GIS solutions for your critical infrastructure and development projects.
               </p>
-            <Link href="/contact">
-              <Button size="lg" className="bg-primary hover:bg-primary/90 text-black font-medium px-8 py-4 rounded-lg">
-                Start Your Project
-              </Button>
-            </Link>
+            <div className="flex gap-4 justify-center">
+              <Link href="/contact">
+                <Button 
+                  size="lg" 
+                  className="bg-primary hover:bg-primary/90 text-black font-medium px-8 py-4 rounded-lg transform transition-transform duration-300 hover:scale-105"
+                >
+                  Start Your Project
+                </Button>
+              </Link>
+              <Link href="/solutions/general-mapping">
+                <Button 
+                  size="lg" 
+                  className="bg-transparent border-2 border-accent text-accent font-medium px-8 py-4 rounded-lg transform transition-all duration-300 
+                  hover:scale-105 hover:shadow-lg hover:bg-gradient-to-r from-accent/20 via-accent/10 to-transparent 
+                  relative overflow-hidden group"
+                >
+                  <span className="relative z-10">View Mapping Projects</span>
+                  <div className="absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform duration-700 
+                  bg-gradient-to-r from-transparent via-accent/30 to-transparent"></div>
+                </Button>
+              </Link>
+            </div>
           </div>
         </div>
       </section>
