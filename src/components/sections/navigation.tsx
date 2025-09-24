@@ -120,11 +120,11 @@ export default function Navigation() {
   return (
     <header
       className={cn(
-        "fixed top-0 z-50 w-full border-b border-primary/20 bg-gradient-to-r from-black/90 via-black/80 to-black/90 backdrop-blur-xl transition-transform duration-300 hover:shadow-lg hover:shadow-primary/25",
-        showHeader ? "translate-y-0" : "-translate-y-full"
       )}
     >
-      <div className="absolute inset-0 bg-gradient-to-r from-primary/5 via-primary/10 to-primary/5" />
+      <div className="absolute inset-0 bg-gradient-to-r from-primary/5 via-
+        "fixed top-0 z-50 w-full border-b border-primary/20 bg-gradient-to-r from-black/90 via-black/80 to-black/90 backdrop-blur-xl transition-transform duration-300 hover:shadow-lg hover:shadow-primary/25",
+        showHeader ? "translate-y-0" : "-translate-y-full"primary/10 to-primary/5" />
       <div className="container mx-auto flex h-20 items-center justify-between px-4 relative z-10">
         <div className="flex items-center">
           <Link href="/" aria-label="GeoAnalytics Home">
@@ -176,7 +176,7 @@ export default function Navigation() {
                             <h3 className="text-base font-medium text-primary">Our Project Portfolio</h3>
                             <p className="mt-2 text-xs text-muted-foreground">Explore our successful GIS and remote sensing projects</p>
                         </div>
-                        <Button size="sm" asChild className="w-full mt-4 text-xs bg-primary hover:bg-primary/90 text-black"><Link href="portfolio/all-projects">View all projects</Link></Button>
+                        <Button size="sm" asChild className="w-full mt-4 text-xs bg-primary hover:bg-primary/90 text-black"><Link href="/portfolio/all-projects">View all projects</Link></Button>
                     </div>
                    </div>
                 </NavigationMenuContent>
