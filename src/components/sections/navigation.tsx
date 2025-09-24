@@ -28,7 +28,7 @@ import { Menu, Satellite, Map, Globe, BarChart3, Database, Shield, GitMerge, Boo
 const GeoAnalyticsLogo = () => (
   <div className="relative">
     <img
-      src="/mapit logo 1.png"
+      src="/mapit.webp"
       alt="MAPIT Logo"
       className="h-22 w-auto max-w-[140px]"
     />
