@@ -1,0 +1,15 @@
+{
+  "name": "MAPIT - Advanced Web GIS Solutions",
+  "short_name": "MAPIT",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#0ea5a4",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

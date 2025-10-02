@@ -1,2 +1,27 @@
+# robots.txt for https://mapit-services.com/
+# Best-practice rules for crawlers
+
 User-agent: *
-Disallow:
+# Allow everything by default
+Allow: /
+
+# Disallow internal-only paths
+Disallow: /api/
+Disallow: /_next/
+Disallow: /node_modules/
+
+# Crawl-delay is optional and respected by some crawlers
+# Set a polite crawl delay to reduce server load (seconds)
+Crawl-delay: 10
+
+# Point crawlers to the sitemap
+Sitemap: https://mapit-services.com/sitemap.xml
+
+# If you have a preferred host for crawlers that support Host, you can include it (not required by Google)
+# Host: https://mapit-services.com
+
+# End of robots.txt
+
+# Security and manifest
+Security-Policy: https://mapit-services.com/.well-known/security.txt
+Manifest: https://mapit-services.com/manifest.json
